@@ -1,0 +1,9 @@
+<div>
+  <img [src]="user.image" alt="photo profile" />
+  <h1>Hello {{ user.title }}</h1>
+  <p>Age : {{ user.age }}</p>
+  <p>Citation : {{ user.quote }}</p>
+  <input type="text" [(ngModel)]="user.quote" />
+  <br />
+  <button (click)="reset()">reset</button>
+</div>

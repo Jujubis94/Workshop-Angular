@@ -1,0 +1,14 @@
+<div>
+  <button (click)="numberAlea1()">premier chiffre</button>
+  <p *ngIf="show1">{{ number1 }}</p>
+  <button (click)="numberAlea2()">deuxieme chiffre</button>
+  <p *ngIf="show2">{{ number2 }}</p>
+  <div class="operator">
+    <button (click)="add()">+</button>
+    <button (click)="sub()">-</button>
+    <button (click)="div()">/</button>
+    <button (click)="mult()">*</button>
+  </div>
+  <p *ngIf="showResult">{{ result }}</p>
+  <button (click)="reset()">Reset</button>
+</div>

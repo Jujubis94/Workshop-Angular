@@ -1,0 +1,16 @@
+*{
+    margin-top: 0.75rem;
+}
+h1, h2{
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.operator {
+    flex-direction: row;
+    margin-top: 0;
+}

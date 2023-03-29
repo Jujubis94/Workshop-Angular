@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+img{
+    margin-top: 1rem;
+}
+input, button {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 50%;
+}
